@@ -983,7 +983,7 @@ a{font-weight: 500;}
 /*=============================our video star==========================================*/
 .our-video {
   position: relative;
-  background: url(../images/bg/bg-02.jpg) center center no-repeat;
+  background: url(https://res.cloudinary.com/dtucfgkvv/image/upload/f_auto,q_auto/v1771574422/speedclaw_uploads/axfknciavsoikb5mw3fp.png) center center no-repeat;
   background-size: cover;
 }
 .our-video  .play-button {
@@ -1493,7 +1493,7 @@ a{font-weight: 500;}
   top: -4%;
 }
 .banner-rapper-two .left-banner .h1::after {
-  content: url('../images/shape/shape-16.png');
+  content: url('https://res.cloudinary.com/dtucfgkvv/image/upload/f_auto,q_auto/v1771574423/speedclaw_uploads/vpbuxtxnpaeawkqto75j.png');
   position: absolute;
   left: 50%;
   bottom: -12%;
@@ -1917,7 +1917,7 @@ a{font-weight: 500;}
   font-weight: 700;
 }
 .banner-about .h2::after {
-  content: url(../images/shape/shape-16.png);
+  content: url(https://res.cloudinary.com/dtucfgkvv/image/upload/f_auto,q_auto/v1771574423/speedclaw_uploads/vpbuxtxnpaeawkqto75j.png);
   position: absolute;
   bottom: -51px;
   left: 40%;
