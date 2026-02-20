@@ -2640,7 +2640,7 @@ a{font-weight: 500;}
 }
 .main_left .left-one .quotetion p{font-size: 18px;opacity:1;}
 .main_left .left-one .quotetion p::after {
-  content: url('../images/icon/quatetion.png');
+  content: url('https://res.cloudinary.com/dtucfgkvv/image/upload/f_auto,q_auto/v1771580527/speedclaw_uploads/ztizmfog43eryckk8doi.png');
   position: absolute;
   left: -70px;
   top: -20px;
