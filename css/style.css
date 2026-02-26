@@ -11,8 +11,7 @@
 * Importing necessary  Styles.
 **/
 /*----- Fonts ----*/
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+/* Google Fonts loaded via <link> tags in HTML for better performance */
 
 /*----Bootstrap css ----- */
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
@@ -490,6 +489,7 @@ a{font-weight: 500;}
     background-size: cover;
     visibility: visible;
     opacity: 1;
+    min-height: 100vh; /* Reserve viewport height to reduce CLS on initial load */
 }
 .slick-slide.slick-current.slick-active .banner-one{
   visibility: visible;

@@ -23,6 +23,16 @@
 		<title>Vibrant Brands - Home</title>
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" sizes="72x33" href="images/fabicon.png">
+
+		<!-- Performance: preconnect to critical origins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+		<link rel="dns-prefetch" href="//res.cloudinary.com">
+
+		<!-- Google Fonts (moved from CSS @import to HTML for better loading behavior) -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap">
+
 		<!-- Main style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 		<!-- responsive style sheet -->
@@ -38,16 +48,7 @@
 
 	<body>
 		<div class="main-page-wrapper">
-			<!-- ===================================================
-				Loading Transition
-			==================================================== -->
-			<div id="preloader">
-				<div id="andeo-preloader" class="andeo-preloader">
-					<div class="animation-preloader">
-					  <h1>VIBRANT BRANDS</h1>
-					</div>	
-				</div>
-			</div>
+			<!-- Loading preloader removed for faster first paint and better LCP -->
 			<!--=========================header html start  1=================================  -->
 			<div class="theme-main-menu sticky-menu theme-menu-one tran5s wow fadeInUp">
 				<div class="inner-content">
