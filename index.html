@@ -38,9 +38,13 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Domine:wght@400;500;600;700&display=swap">
 
 		<!-- Main style sheet -->
+		<link rel="preload" href="css/style.css" as="style">
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 		<!-- responsive style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+		<!-- Minified responsive styles for faster delivery -->
+		<link rel="preload" href="css/responsive.min.css" as="style">
+		<link rel="stylesheet" type="text/css" href="css/responsive.min.css" media="all">
 
 		<!-- Fix Internet Explorer ______________________________________-->
 		<!--[if lt IE 9]>
@@ -678,27 +682,27 @@
 		<!-- Optional JavaScript   -->
     	<!-- jQuery first, then Bootstrap JS -->
     	<!-- jQuery -->
-		<script src="vendor/jquery.min.js"></script>
+		<script src="vendor/jquery.min.js" defer></script>
 		<!-- Bootstrap JS -->
-		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
 		<!-- circle progress bar -->
-		<script src="vendor/circle-progress.min.js"></script>
+		<script src="vendor/circle-progress.min.js" defer></script>
 		<!-- Slick Slider -->
-		<script src="vendor/slick/slick.min.js"></script>
+		<script src="vendor/slick/slick.min.js" defer></script>
 		<!-- js Counter -->
-		<script src="vendor/jquery.counterup.min.js"></script>
+		<script src="vendor/jquery.counterup.min.js" defer></script>
 		<!-- jquery.sidebar.min.js -->
-		<script src="vendor/jquery.sidebar.min.js"></script>
+		<script src="vendor/jquery.sidebar.min.js" defer></script>
 		<!-- waypoints  -->
-		<script src="vendor/jquery.waypoints.min.js"></script>
+		<script src="vendor/jquery.waypoints.min.js" defer></script>
 		<!-- jquery.magnific-popup.min.js -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js" defer></script>
 		<!-- Nice Select -->
-		<script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+		<script src="vendor/nice-select/jquery.nice-select.min.js" defer></script>
 		<!-- wow js -->
-		<script src="vendor/wow.min.js"></script>
+		<script src="vendor/wow.min.js" defer></script>
 		<!-- Theme js -->
-		<script src="js/theme.js"></script>
+		<script src="js/theme.js" defer></script>
 		</div> <!-- /.main-page-wrapper -->
 	</body>
 </html>
