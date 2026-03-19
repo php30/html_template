@@ -9,34 +9,38 @@
       	<meta property="og:type" content="website">
       	<meta property="og:title" content="Andeo - Creative Digital Marketing  HTML5 Template">
 		<meta name="og:image" content="images/assets/ogg.png">
-		
+		<!-- For IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		
+		<!-- For Resposive Device -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		
+		<!-- For Window Tab Color -->
+		<!-- Chrome, Firefox OS and Opera -->
 		<meta name="theme-color" content="#6dbfb8">
-		
+		<!-- Windows Phone -->
 		<meta name="msapplication-navbutton-color" content="#6dbfb8">
-		
+		<!-- iOS Safari -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="#6dbfb8">
 		<title>Andeo - Creative Digital Marketing  HTML5 Template</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		
-		<link rel="icon" type="image/png" sizes="72x33" href="images/fabicon.webp">
-		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="72x33" href="images/fabicon.png">
+		<!-- Main style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-		
+		<!-- responsive style sheet -->
 		<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
 
-		
-			
+		<!-- Fix Internet Explorer ______________________________________-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->	
 	</head>
 
 	<body>
 		<div class="main-page-wrapper">
-			
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
 
 			<div id="preloader">
 				<div id="andeo-preloader" class="andeo-preloader">
@@ -46,7 +50,7 @@
 				</div>
 			</div>
 
-			
+			<!--=========================header html start  1=================================  -->
 
 			<div class="theme-main-menu sticky-menu theme-menu-one theme-menu-two tran5s wow fadeInUp">
 				<div class="inner-content">
@@ -86,14 +90,14 @@
 								</div>
 						    </nav>
 						</div>
-                        
+                        <!-- //header nav  -->
 					</div>
 			    </div>
 			</div>
 
-			
+			<!-- =======================header html end===================================== -->
 
-			
+			<!-- ==========================top aside start ==================================================-->
 			<div class="top-aside tran3s wow fadeInUp">
 				<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTop">
 					<div class="offcanvas-header">
@@ -108,7 +112,7 @@
 					</div>
 				</div>
 			</div>
-			
+			<!-- RIGHT GRID  ASIDE -->
 			<div class="right-aside tran3s wow fadeInUp">
 				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRight">
 					<div class="offcanvas-header">
@@ -155,12 +159,12 @@
                 </div>
             </div>
 
-			
+			<!--================================banner section end ===========================  -->
 
-			
-			
+			<!--================================about section start ===========================  -->
+			<!--================================about section end ===========================  -->
 
-            
+            <!--================================contact form end ===========================  -->
             <div class="contact-form pt-120 md-pt-40 position-relative tran5s wow fadeInUp">
                 <div class="contact-form-rapper">
                     <section class="about-three">
@@ -204,7 +208,7 @@
                     </section>
                 </div>
             </div>
-            
+            <!--================================contact form end ===========================  -->
             <div class="my-contact pt-120 pb-120 md-pt-100 md-pb-60">
                 <div class="container">
                     <div class="row d-flex align-items-center">
@@ -227,7 +231,7 @@
                 </div>
             </div>
 
-			
+			<!--================================ Footer start ===========================  -->
 			<footer class="footer tran5s wow fadeInUp">
 				<div class="footer_wapper pt-100 md-pt-30 pb-50">
 				  <div class="container">
@@ -257,10 +261,10 @@
 							</div>
 						</div>
 					  </div>
-					</div>
+					</div><!-- main footer end -->
 	  
 					<div class="row mt-100 md-mt-30">
-						
+						<!-- <div class="col-lg-3 md-mb-30"><p>All rights reserved 2023 @mr</p></div> -->
 						<div class="col-lg-3 md-mb-30">
 							<a href=""><img src="images/logo/logo.png" alt="" class="img-fluid"></a>
 						</div>
@@ -273,35 +277,35 @@
 				  </div>
 				</div>
 			</footer>
-			
+			<!-- ============================== Footer end    ============================ -->
 			<button class="scroll-top">
 				<i class="bi bi-arrow-up-short"></i>
 			</button>
 
-			
-			
-			
-			<script defer src="vendor/jquery.min.js"></script>
-			
-			<script defer src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-			
-			<script defer src="vendor/circle-progress.min.js"></script>
-			
-			<script defer src="vendor/slick/slick.min.js"></script>
-			
-			<script defer src="vendor/jquery.counterup.min.js"></script>
-			
-			<script defer src="vendor/jquery.sidebar.min.js"></script>
-			
-			<script defer src="vendor/jquery.waypoints.min.js"></script>
-			
-			<script defer src="js/jquery.magnific-popup.min.js"></script>
-			
-			<script defer src="vendor/nice-select/jquery.nice-select.min.js"></script>
-			
-			<script defer src="vendor/wow.min.js"></script>
-			
-			<script defer src="js/theme.js"></script>
-		</div> 
+			<!-- Optional JavaScript   -->
+			<!-- jQuery first, then Bootstrap JS -->
+			<!-- jQuery -->
+			<script src="vendor/jquery.min.js"></script>
+			<!-- Bootstrap JS -->
+			<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<!-- circle progress bar -->
+			<script src="vendor/circle-progress.min.js"></script>
+			<!-- Slick Slider -->
+			<script src="vendor/slick/slick.min.js"></script>
+			<!-- js Counter -->
+			<script src="vendor/jquery.counterup.min.js"></script>
+			<!-- jquery.sidebar.min.js -->
+			<script src="vendor/jquery.sidebar.min.js"></script>
+			<!-- waypoints  -->
+			<script src="vendor/jquery.waypoints.min.js"></script>
+			<!-- jquery.magnific-popup.min.js -->
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<!-- Nice Select -->
+			<script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+			<!-- wow js -->
+			<script src="vendor/wow.min.js"></script>
+			<!-- Theme js -->
+			<script src="js/theme.js"></script>
+		</div> <!-- /.main-page-wrapper -->
 	</body>
 </html>
